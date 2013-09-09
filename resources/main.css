@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+
+a {
+	color: #000000;
+	background: inherit;
+	text-decoration: none;/*所有链接都去掉下划线*/
+}
+
+div.top_lay {
+	height: 60px;
+	width: 100%;
+	margin:0;
+}
+
+div.logo {
+	float: left;
+}
+p{
+	line-height:20px;
+}
+div.h_lay {
+	margin: 0 200px;
+	height:60px;
+	width:950px;
+}
+
+div.h_left {
+	width: 200px;
+	height: 60px;
+	float:left;
+}
+
+div.h_right {
+	width: 200px;
+	height: 60px;
+	float:right;
+	margin-top:0;
+	margin-right:0;
+}
+
+div.fol_lay {
+	width: 100%;
+	margin: 0 0 1px;
+}
+
+div.b_middle {
+	margin: 0 200px 1px;
+}
+
+div.b_left {
+	width: 200px;
+	float:left;
+}
+
+div.body_lay {
+	margin: 0 200px 1px;
+}
+
+div.b_right {
+	width: 200px;
+	float:right;
+}
+
+div.f_lay {
+	margin-left:200px;
+	margin-right:200px;
+	margin-bottom:1px;
+	height:10px;
+	font-size:12px;
+/*	background-color:#BBFFEE;*/
+	padding:10px;
+}
+#foot a{
+	border-right: 1px solid #888888;
+}
+
+#menu {
+	font: 12px verdana, arial, sans-serif;
+	float: right;
+}
+
+#menu,#menu li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu li a {
+	display: block;
+	/* 如果是中英文混排的文字，建议用固定宽度
+	width:150px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	*/
+	padding: 6px 15px;
+	/*	background:#3A4953;
+	color:#fff; */
+	text-align:center;
+	text-decoration: none; /* 去掉下划线 */
+}
+a.a_l{
+	border-right: 1px dashed #AAAAAA; /* 在右侧加上分隔线 */
+}
+/*
+#menu li a:hover {
+	background:#146C9C;
+	color:#fff;
+	text-decoration:none;
+	border-right:1px solid #000;
+}*/
+#menu li a.last {
+	border-right: 0; /* 去掉左侧边框 */
+}
+
+#nav{
+ font-size:12px;
+ font-family:Tahoma, Geneva, sans-serif;
+ margin-top:30px;
+ }
+#nav li ul {
+	background-color:#FFFFFF;
+	position: relative;
+/*	height: 150px;*/
+	width: 170px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	z-index:2px;
+}
+#nav li ul li {
+	float: none;
+}
+#nav li:hover ul{
+	display: block;
+}
+#nav li ul li a {
+	text-align:left;
+	width: 140px;
+	height: 12px;
+	background: FFFFFF;
+	color: #000000;
+}
+#nav li ul li a:hover {
+	background: #DDDDDD;
+	color: #000000;
+}
